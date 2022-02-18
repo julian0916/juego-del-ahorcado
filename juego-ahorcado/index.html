@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego del ahorcado</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style-index.css">
+</head>
+<body>
+    <header>
+        <h1>El juego del ahorcado</h1>
+    </header>
+    <main>
+        <section>
+            <a href="Ahorcado.html"><input class="boton" type="submit" value="Iniciar juego"></a> 
+        </section>
+        <section>
+            <input class="ingresar-palabra" placeholder="Escriba una palabra nueva">
+        </section>
+        <section>
+            <input onclick="agregarPalabra()" class="boton" type="submit" value="Agregar palabra nueva">
+         </section>    
+    </main>
+    <footer>
+        <p class="copyright">&copy Copyright Creado por Julian Vargas 2022</p>
+    </footer>
+    <script src="ahorcado.js"></script>
+</body>
+</html>
