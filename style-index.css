@@ -1,0 +1,43 @@
+body{
+    font-family: 'Cabin', sans-serif;
+}
+
+header{
+    text-align: center;
+    font-size: 30px;
+}
+
+.boton{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: #474545;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.boton:hover{
+    background: rgb(39, 37, 34);
+    transform: scale(1.20);
+}
+
+section{
+    padding: 3em 0;
+    width: 940px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.ingresar-palabra{
+    width: 300px;
+    height: 35px;
+    font-size: 18px;
+}
+
+footer{
+    text-align: center;
+}
