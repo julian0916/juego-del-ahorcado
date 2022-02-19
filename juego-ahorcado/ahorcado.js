@@ -76,7 +76,7 @@ function intento(letra) {
 // Agrega una palabra nueva
 function agregaPalabra(){
   var nuevaPalabra = document.getElementById('ingrese');
-  palabras.push([nuevaPalabra]);
+  palabras.push([nuevaPalabra.value]);
   console.log(palabras);
 }
 
