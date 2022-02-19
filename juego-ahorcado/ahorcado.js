@@ -16,7 +16,8 @@ var cont = 6;
 var buttons = document.getElementsByClassName('letra');
 // Boton de reset
 var btnInicio = document.getElementById("reset");
-
+// boton agragar palabra
+var insertaPalabra = document.getElementById("ingresar-palabra")
 
 // ### FUNCIONES ###
 
@@ -73,8 +74,10 @@ function intento(letra) {
 }
 
 // Agrega una palabra nueva
-function agregarPalabra() {
-  document.getElementById("#ingresar-palabra").innerHTML = palabras[1];
+function agregaPalabra(){
+  var nuevaPalabra = document.getElementById('ingrese');
+  palabras.push([nuevaPalabra]);
+  console.log(palabras);
 }
 
 // Comprueba si ha finalizado
